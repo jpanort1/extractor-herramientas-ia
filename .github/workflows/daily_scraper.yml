@@ -22,7 +22,7 @@ jobs:
     - name: Instalar dependencias
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements_simple.txt
+        pip install -r requirimientos_simple.txt
     
     - name: Crear archivo de credenciales de Google
       run: |
